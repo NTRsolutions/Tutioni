@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PrimaryFlatButton"
+        android:id="@+id/display_profile_layout"
+        android:layout_margin="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -10,16 +17,31 @@
         android:layout_margin="15dp"
         android:orientation="horizontal"
         >
+
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="85dp"
-            android:layout_height="85dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@drawable/profile_image"
             android:id="@+id/users_profile_image"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/colorPrimary"
             />
-       <LinearLayout
+
+        <ImageView
+            android:id="@+id/user_online_status"
+            android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-25dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="Online_icon"
+            android:src="@drawable/online"
+            android:visibility="invisible" />
+
+        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:orientation="vertical"
+           android:layout_marginStart="20dp"
            >
 
            <LinearLayout
@@ -29,7 +51,7 @@
                >
                <TextView
                    android:id="@+id/user_profile_name"
-                   android:layout_width="200sp"
+                   android:layout_width="wrap_content"
                    android:textColor="@android:color/background_dark"
                    android:layout_height="wrap_content"
                    android:text="user name"
@@ -37,30 +59,71 @@
                    android:textStyle="bold"
                    android:textSize="18sp"
                    />
-               <ImageView
-                   android:id="@+id/user_online_status"
-                   android:layout_width="18dp"
-                   android:layout_height="18dp"
-                   android:layout_marginTop="5dp"
-                   android:src="@drawable/online"
-                    android:visibility="invisible"
+               <TextView
+                   android:id="@+id/user_profile_status"
+                   android:layout_width="200sp"
+                   android:layout_height="wrap_content"
+                   android:text="user_status"
+                   android:textAlignment="textStart"
+                   android:textColor="#000"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                   android:textSize="16sp"
+                   android:layout_marginBottom="2dp"
+                   android:layout_marginStart="5dp"
                    />
            </LinearLayout>
 
+
            <TextView
-               android:id="@+id/user_profile_status"
-               android:layout_width="200sp"
+               android:id="@+id/user_profile_private_tutor"
+               android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="user_status"
+               android:text="private tutor"
                android:textAlignment="textStart"
-               android:textColor="#000"
+               android:textColor="@color/colorPrimaryDark"
                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
                android:textSize="16sp"
+               android:layout_marginBottom="2dp"
                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="current Educational institute"
+                />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+               <Button
+                   android:id="@+id/request_accept_button"
+                   android:layout_width="wrap_content"
+                   android:layout_height="30dp"
+                   android:text="@string/accept"
+                   android:textSize="16sp"
+                   android:textAllCaps="false"
+                   android:background="@android:color/holo_green_dark"
+                   android:visibility="gone"
+                   />
+               <Button
+                   android:id="@+id/request_cancel_button"
+                   android:layout_width="wrap_content"
+                   android:layout_height="30dp"
+                   android:text="@string/cancel"
+                   android:textSize="16sp"
+                   android:textAllCaps="false"
+                   android:background="@android:color/holo_red_dark"
+                   android:textColor="@android:color/background_light"
+                   android:layout_marginStart="10dp"
+                   android:visibility="gone"
+                   />
+
+
+           </LinearLayout>
 
        </LinearLayout>
 
     </LinearLayout>
 
-
+    </android.support.v7.widget.CardView>
 </RelativeLayout>

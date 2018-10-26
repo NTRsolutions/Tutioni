@@ -1,4 +1,4 @@
-package com.example.khokan.tutorisbdservice.learnning;
+package com.example.khokan.tutorisbdservice.learning;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

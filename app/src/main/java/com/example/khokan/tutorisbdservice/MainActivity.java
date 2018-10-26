@@ -12,11 +12,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.khokan.tutorisbdservice.learning.BooksUploadActivity;
+import com.example.khokan.tutorisbdservice.learning.LearningActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private TabLayout myTabLayout;
     private ViewPager myViewPager;
     private TabsAccessAdapter myTabsAccessAdapter;
-    private FirebaseAuth mAuth;
-    private DatabaseReference rootRef;
+    private FirebaseAuth mAuth, userAuth;
+    private DatabaseReference rootRef,userRef;
 //    Firebase
     private FirebaseUser currentUser;
 
@@ -47,12 +48,16 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
         rootRef= FirebaseDatabase.getInstance().getReference();
+        rootRef.keepSynced(true);
+
+        userRef= FirebaseDatabase.getInstance().getReference().child("Users");
+        userAuth = FirebaseAuth.getInstance();
 //        menu
 
 
         main_page_appbar = findViewById(R.id.main_page_bar);
         setSupportActionBar(main_page_appbar);
-        getSupportActionBar().setTitle("TutorsBD Servives");
+        getSupportActionBar().setTitle("");
 
         myViewPager = findViewById(R.id.main_tabs_pager);
         myTabsAccessAdapter = new TabsAccessAdapter(getSupportFragmentManager());
@@ -72,9 +77,20 @@ public class MainActivity extends AppCompatActivity {
         }
         else
             {
+
                 varifiyUserExistence();
+                userRef.child(currentUser.getUid()).child("online").setValue(true);
+
             }
 
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (currentUser != null) {
+            userRef.child(currentUser.getUid()).child("online").setValue(false);
+        }
     }
 
     private void varifiyUserExistence() {
@@ -84,9 +100,11 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if ((dataSnapshot.child("name").exists()))
                 {
+
                     Toast.makeText(MainActivity.this, "Welcome..", Toast.LENGTH_SHORT).show();
                 }else
                     {
+
                        sendToSettingActivity();
                     }
             }
@@ -128,9 +146,17 @@ public class MainActivity extends AppCompatActivity {
         {
             mAuth.signOut();
             sendToLogin();
+        }if (item.getItemId() == R.id.nearby_places)
+        {
+            sendToMaps();
+        }if (item.getItemId() == R.id.books_list)
+        {
+            sendToUploadBooks();
         }
         return true;
     }
+
+
 
     private void createNewGroupChat() {
 
@@ -185,9 +211,7 @@ public class MainActivity extends AppCompatActivity {
     //    sendint intent
     private void sendToSettingActivity() {
         Intent settingIntent = new Intent(MainActivity.this,SettingActivity.class);
-        settingIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK| Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(settingIntent);
-        finish();
     }
 
     private void sendToLogin() {
@@ -199,6 +223,20 @@ public class MainActivity extends AppCompatActivity {
     private void sendToFindFriendsActivity() {
         Intent friendIntent = new Intent(MainActivity.this, FindsFriendsActivity.class);
         startActivity(friendIntent);
-        finish();
+    }
+    private void sendToMaps() {
+        Intent mapIntent = new Intent(MainActivity.this, GoogleMapsActivity.class);
+        startActivity(mapIntent);
+    }
+    private void sendToUploadBooks() {
+        Intent uploadBooksIntent = new Intent(MainActivity.this, BooksUploadActivity.class);
+        startActivity(uploadBooksIntent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        userRef.child(currentUser.getUid()).child("online").setValue(true);
+
     }
 }

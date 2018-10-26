@@ -18,6 +18,16 @@
         android:title="Create New Group"
         app:showAsAction="never"
         />
+    <item
+        android:id="@+id/nearby_places"
+        android:title="Near By School"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/books_list"
+        android:title="Books List"
+        app:showAsAction="never"
+        />
 
     <item
         android:id="@+id/main_logout_option"

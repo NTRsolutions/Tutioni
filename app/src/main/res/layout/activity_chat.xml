@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.khokan.tutorisbdservice.ChatActivity">
+    tools:context="com.example.khokan.tutorisbdservice.ChatActivity"
+    android:background="@color/colorAccent">
 
-</android.support.constraint.ConstraintLayout>
+    <include
+        android:id="@+id/groups_chat_appbar"
+        layout="@layout/main_app_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/private_message_list_of_users"
+        android:layout_below="@id/groups_chat_appbar"
+        android:layout_above="@id/myLinearLayout"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/myLinearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="10"
+
+        >
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_your_message_here"
+            android:padding="17dp"
+            android:layout_weight="8.5"
+            android:background="@drawable/private_message_sender_input_layout"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/send_message_btn"
+            android:id="@+id/send_private_message_btn"
+            android:layout_weight="1.5"
+            android:contentDescription="@string/sendmessagebuttonlogo" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -4,60 +4,309 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/profile_activity"
+    android:background="@drawable/profile_pic_bg"
+
     tools:context="com.example.khokan.tutorisbdservice.ProfileActivity">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp"
-        android:src="@drawable/profile_image"
-        android:id="@+id/visit_profile_image"
-        />
-    <TextView
-        android:id="@+id/visit_user_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="user name"
-        android:layout_below="@+id/visit_profile_image"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="5dp"
-        android:textAllCaps="false"
-        />
-    <TextView
-        android:id="@+id/visit_user_status"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Here I am using TutosBD"
-        android:layout_below="@+id/visit_user_name"
-        android:textAlignment="center"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="25dp"
-        android:textAllCaps="false"
-        />
+        android:paddingBottom="20dp"
+        >
 
-    <Button
-        android:id="@+id/send_message_request_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/visit_user_status"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp"
-        android:textColor="@android:color/background_light"
-        android:background="@drawable/buttons"
-        android:text="Send Message"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textAllCaps="false"
-        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/profile_image"
+                android:id="@+id/visit_profile_image"
+                app:civ_border_width="10dp"
+                app:civ_border_color="@color/colorAccent"
+                />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/visit_user_name_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/visit_profile_image"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/visit_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/visit_profile_image"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/user_name"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/visit_user_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/visit_user_name_view"
+                android:layout_below="@+id/visit_user_name_view"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="24dp"
+                android:text="@string/here_i_am_using_ts_communication"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:background="@android:color/white"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                app:contentPaddingLeft="5dp"
+                android:layout_below="@+id/visit_user_status"
+                android:id="@+id/detail_info_layout"
+                android:background="@color/colorPrimary"
+                >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_below="@+id/visit_user_status"
+
+                   >
+                   <android.support.v7.widget.CardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:cardCornerRadius="5dp"
+                       >
+                       <TextView
+                           android:id="@+id/visit_user_gender"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignStart="@+id/visit_user_name"
+                           android:layout_below="@+id/visit_user_name"
+                           android:layout_marginTop="5dp"
+                           android:text="@string/gender"
+                           android:textAlignment="textStart"
+                           android:textAllCaps="true"
+                           android:textSize="14sp"
+                           android:textStyle="bold"
+                           />
+                   </android.support.v7.widget.CardView>
+
+                   <android.support.v7.widget.CardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:cardCornerRadius="5dp"
+                       android:layout_marginTop="5dp"
+                       >
+                       <TextView
+                           android:id="@+id/visit_user_profession"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignStart="@+id/visit_user_name"
+                           android:layout_below="@+id/visit_user_name"
+                           android:layout_marginTop="5dp"
+                           android:text="@string/profession"
+                           android:textAlignment="textStart"
+                           android:textAllCaps="true"
+                           android:textSize="14sp"
+                           android:textStyle="bold" />
+
+                   </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/visit_user_private_tutors"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/visit_user_name"
+                            android:layout_below="@+id/visit_user_name"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/private_tutors"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="true"
+                            android:textSize="14sp"
+                            android:textColor="@color/colorPrimary"
+                            android:pointerIcon="text"
+                            android:textStyle="bold"
+                            tools:targetApi="n" />
+
+
+                    </android.support.v7.widget.CardView>
+               </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/detail_info_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/detail_info_layout"
+                android:layout_below="@+id/detail_info_layout"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10sp"
+                app:contentPaddingLeft="5dp"
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/visit_user_status"
+                    android:orientation="vertical"
+
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="5dp">
+
+                        <TextView
+                            android:id="@+id/visit_user_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/visit_user_name"
+                            android:layout_below="@+id/visit_user_name"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/phone"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="5dp">
+
+                        <TextView
+                            android:id="@+id/visit_user_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/visit_user_name"
+                            android:layout_below="@+id/visit_user_name"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/email"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="5dp">
+
+                        <TextView
+                            android:id="@+id/visit_user_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/visit_user_name"
+                            android:layout_below="@+id/visit_user_name"
+                            android:layout_marginTop="5dp"
+                            android:pointerIcon="text"
+                            android:text="@string/address"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            tools:targetApi="n" />
+
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <Button
+                android:id="@+id/send_message_request_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_info_layout2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/buttons"
+                android:text="@string/send_message"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                style="@style/PrimaryFlatButton"
+                />
+            <Button
+                android:id="@+id/decine_message_request_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/send_message_request_button"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/buttons"
+                android:text="@string/cancel_chat_request"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:layout_marginBottom="40dp"
+                />
+
+            <Button
+                android:id="@+id/user_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/decine_message_request_button"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/buttons"
+                android:text="@string/location"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginBottom="40dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>

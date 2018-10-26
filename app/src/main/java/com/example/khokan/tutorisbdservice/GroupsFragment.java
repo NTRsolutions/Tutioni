@@ -44,6 +44,7 @@ public class GroupsFragment extends Fragment {
                              Bundle savedInstanceState) {
         groupFragmentView = inflater.inflate(R.layout.fragment_groups, container, false);
         groupREef = FirebaseDatabase.getInstance().getReference().child("Groups");
+        groupREef.keepSynced(true);
         initializeFields();
 
         retriveAndDisplayGroups();

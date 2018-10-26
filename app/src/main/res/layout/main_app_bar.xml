@@ -7,4 +7,10 @@
     android:background="@color/colorPrimaryDark"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     >
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tution_logo"
+        />
 </android.support.v7.widget.Toolbar>

@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -47,7 +48,9 @@ public class GroupsChatActivity extends AppCompatActivity {
         currentUserID = mAuth.getCurrentUser().getUid();
 
         userRef = FirebaseDatabase.getInstance().getReference().child("Users");
+        userRef.keepSynced(true);
         groupNameRef= FirebaseDatabase.getInstance().getReference().child("Groups").child(currentGroupName);
+        userRef.keepSynced(true);
 
 
         
@@ -71,6 +74,11 @@ public class GroupsChatActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+        DatabaseReference onlineRef = FirebaseDatabase.getInstance().getReference().child("Users");
+        FirebaseAuth onlineAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = onlineAuth.getCurrentUser();
+        onlineRef.child(currentUser.getUid()).child("online").setValue(true);
 
         groupNameRef.addChildEventListener(new ChildEventListener() {
             @Override
@@ -144,7 +152,7 @@ public class GroupsChatActivity extends AppCompatActivity {
         
         if (TextUtils.isEmpty(message))
         {
-            Toast.makeText(this, "Please write your Message...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please write your Messages...", Toast.LENGTH_SHORT).show();
         }else
         {
             Calendar calForDate = Calendar.getInstance();
@@ -180,6 +188,7 @@ public class GroupsChatActivity extends AppCompatActivity {
             String chatMessage = (String) ((DataSnapshot)iterator.next()).getValue();
             String chatName = (String) ((DataSnapshot)iterator.next()).getValue();
             String chatTime = (String) ((DataSnapshot)iterator.next()).getValue();
+
 
             displayMessage.append(chatName + " :\n" + chatMessage +"\n" + chatTime +"      " + chatDate + "\n\n\n");
             mScrollView.fullScroll(ScrollView.FOCUS_DOWN);

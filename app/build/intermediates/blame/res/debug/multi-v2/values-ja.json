@@ -30,11 +30,11 @@
                         "endOffsets": "137,191,243,310,375,435,496,562"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43,44",
+                        "startLines": "37,38,39,40,41,42,43,45",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "4198,4285,4339,4391,4458,4523,4583,4644",
+                        "startOffsets": "4198,4285,4339,4391,4458,4523,4583,4746",
                         "endColumns": "86,53,51,66,64,59,60,65",
-                        "endOffsets": "4280,4334,4386,4453,4518,4578,4639,4705"
+                        "endOffsets": "4280,4334,4386,4453,4518,4578,4639,4807"
                     }
                 },
                 {
@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\1bb0553596dffc034f41ceffc9c1ab97\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "97",
+                        "endOffsets": "338"
+                    },
+                    "to": {
+                        "startLines": "44",
+                        "startColumns": "4",
+                        "startOffsets": "4644",
+                        "endColumns": "101",
+                        "endOffsets": "4741"
+                    }
+                },
+                {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0421e74d70ede43099a8969ef8ab3d48\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2",
@@ -64,11 +81,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "46",
+                        "startLines": "47",
                         "startColumns": "4",
-                        "startOffsets": "4788",
+                        "startOffsets": "4890",
                         "endColumns": "100",
-                        "endOffsets": "4884"
+                        "endOffsets": "4986"
                     }
                 },
                 {
@@ -81,11 +98,11 @@
                         "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,45",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,4710",
+                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,4812",
                         "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
-                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,4783"
+                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,4885"
                     }
                 }
             ]

@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/video_tutorials"
+        android:title="@string/video_tutorials"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/best_sites_for_learning"
+        android:title="@string/learning_sites"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/learning_programming"
+        android:title="@string/learning_programming"
+        app:showAsAction="never"
+        /><item
+        android:id="@+id/learning_english"
+        android:title="@string/learning_english"
+        app:showAsAction="never"
+        />
 
 </menu>

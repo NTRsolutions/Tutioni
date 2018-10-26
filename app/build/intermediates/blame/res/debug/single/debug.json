@@ -16,12 +16,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.png.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\cabc3445cb37adfade5ffe9188c2d802\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-hdpi\\tution_logo.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -72,12 +76,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8d8af0345674f2df63e06c33ee9c956b\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
@@ -132,6 +136,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_books_list_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\books_list_layout.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8d8af0345674f2df63e06c33ee9c956b\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
@@ -164,12 +172,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8d8af0345674f2df63e06c33ee9c956b\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
@@ -180,12 +188,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0421e74d70ede43099a8969ef8ab3d48\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
@@ -260,12 +268,20 @@
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sender_message_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\sender_message_layout.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_crop_image_view.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\5fdcae76343cc14cc2f6652ef0beee36\\res\\layout\\crop_image_view.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_collage.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\collage.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -288,12 +304,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0421e74d70ede43099a8969ef8ab3d48\\res\\drawable\\notification_bg_low.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_request.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\fragment_request.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_crop_image_menu_rotate_right.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\5fdcae76343cc14cc2f6652ef0beee36\\res\\drawable-xhdpi-v4\\crop_image_menu_rotate_right.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxhdpi\\tution_logo.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -408,6 +432,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_tution_logo.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-anydpi-v26\\tution_logo.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -424,16 +452,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\5fdcae76343cc14cc2f6652ef0beee36\\res\\menu\\crop_image_menu.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xhdpi\\tution_logo.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password.png.flat",
-        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\password.png"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\password.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -444,12 +476,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -466,6 +498,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0421e74d70ede43099a8969ef8ab3d48\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_tution_logo_round.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-mdpi\\tution_logo_round.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -500,6 +536,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout-v24_activity_profile.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout-v24\\activity_profile.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -532,6 +572,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_php.jpg.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\php.jpg"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
@@ -542,6 +586,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_books_upload.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\activity_books_upload.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -586,6 +634,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
@@ -646,6 +698,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_learning.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\menu\\menu_learning.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
@@ -788,6 +844,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_schools.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\schools.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_crop_image_menu_rotate_right.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\5fdcae76343cc14cc2f6652ef0beee36\\res\\drawable-xxxhdpi-v4\\crop_image_menu_rotate_right.png"
     },
@@ -820,6 +880,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8d8af0345674f2df63e06c33ee9c956b\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_programming.jpg.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\programming.jpg"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_crop_image_menu_rotate_left.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\5fdcae76343cc14cc2f6652ef0beee36\\res\\drawable-xxhdpi-v4\\crop_image_menu_rotate_left.png"
     },
@@ -838,6 +902,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tution_logo_round.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xhdpi\\tution_logo_round.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -864,6 +932,14 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_learning.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout-v21\\activity_learning.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\layout\\design_navigation_item_subheader.xml"
     },
@@ -874,6 +950,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -1124,6 +1204,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receiver_message_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\receiver_message_layout.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -1148,6 +1232,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_jva.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\jva.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -1164,8 +1252,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_message_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\custom_message_layout.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1178,6 +1274,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_avatar.png.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_profile_pic_bg.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\profile_pic_bg.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1230,6 +1330,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-mdpi\\tution_logo.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -1308,12 +1412,20 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_tution_logo_round.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-hdpi\\tution_logo_round.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_learning_programming.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\activity_learning_programming.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -1374,6 +1486,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_chat_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\custom_chat_layout.xml"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -1478,6 +1594,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_tution_logo_round.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxhdpi\\tution_logo_round.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
@@ -1644,6 +1764,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_learning.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\activity_learning.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -1740,8 +1864,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
@@ -1812,8 +1944,16 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxxhdpi\\tution_logo.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8d8af0345674f2df63e06c33ee9c956b\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_tution_logo_round.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxxhdpi\\tution_logo_round.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -1956,6 +2096,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\553d0e0efad0ec029d699057c08ff87f\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_send_message_btn.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\send_message_btn.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -2016,6 +2160,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_tution_logo_round.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-anydpi-v26\\tution_logo_round.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -2066,6 +2214,10 @@
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inputs.xml.flat",
         "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\inputs.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_university.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable-xhdpi\\university.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
@@ -2136,6 +2288,10 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tution_logo.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\tution_logo.png"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -2144,11 +2300,19 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0421e74d70ede43099a8969ef8ab3d48\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_private_message_sender_input_layout.xml.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\drawable\\private_message_sender_input_layout.xml"
+    },
+    {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07a0bcc29f4f63b776ce8e8cd0d43d74\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     }
 ]

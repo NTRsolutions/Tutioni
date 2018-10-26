@@ -5,10 +5,35 @@ package com.example.khokan.tutorisbdservice;
  */
 
 public class Contacts {
-    public String name, status, image;
+    public String name, status, image,private_tutors,gender,profession;
+
+    public String getPrivate_tutors() {
+        return private_tutors;
+    }
+
+    public void setPrivate_tutors(String private_tutors) {
+        this.private_tutors = private_tutors;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getProfession() {
+        return profession;
+    }
+
+    public void setProfession(String profession) {
+        this.profession = profession;
+    }
 
     public Contacts()
     {
+
 
     }
     public Contacts(String name, String status, String image) {

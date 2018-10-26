@@ -1,0 +1,4 @@
+#Wed Oct 17 13:55:23 BDT 2018
+base.0=D\:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\155
+path.0=classes.dex
+renamed.0=classes.dex

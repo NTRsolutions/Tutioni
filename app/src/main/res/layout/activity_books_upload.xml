@@ -1,9 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.khokan.tutorisbdservice.learning.BooksUploadActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/CardView.Light"
+        style="@style/PrimaryFlatButton"
+        android:id="@+id/display_profile_layout"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/upload_your_book_title"
+                        android:layout_width="200sp"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:text="Upload Your Book"
+                        android:textAlignment="textStart"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="5dp"
+                        />
+                    <TextView
+                        android:id="@+id/upload_book_name"
+                        android:layout_width="200sp"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        />
+                    <EditText
+                        android:id="@+id/input_file_name"
+                        android:layout_width="match_parent"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart"
+                        android:layout_marginBottom="5dp"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:visibility="visible"
+                        android:hint="@string/book_name"
+                        android:background="@color/colorPrimary"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/select_book"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/select_file"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:background="@android:color/holo_green_dark"
+                        android:visibility="visible"
+                        android:textColor="@android:color/white"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        />
+                    <Button
+                        android:id="@+id/upload_book"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/upload"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        android:background="@android:color/holo_red_dark"
+                        android:textColor="@android:color/background_light"
+                        android:layout_marginStart="10dp"
+                        android:visibility="visible"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/books_title"
+        android:background="@color/colorPrimary"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/display_profile_layout"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_list"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_list"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:id="@+id/total_books"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/booklist_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/books_title"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

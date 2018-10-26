@@ -1,6 +1,70 @@
 <resources>
-    <string name="app_name">TutorsBDServices</string>
+    <string name="app_name">টিউশনি</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="division_prompt">Choose your division</string>
+    <string-array name="division">
+        <item>Barishal (বরিশাল Borishal)</item>
+        <item>Chattagram (চট্টগ্রাম Chôţţogram)</item>
+        <item>Dhaka (ঢাকা Đhaka)</item>
+        <item>Khulna (খুলনা Khulna)</item>
+        <item>Mymensingh (ময়মনসিংহ Moymonsingho)</item>
+        <item>Rajshahi (রাজশাহী Rajshahi)</item>
+        <item>Sylhet (সিলেট Sylhet)</item>
+        <item>Rangpur (রংপুর Rongpoor)</item>
+    </string-array>
+    <string name="title_activity_testing_map">Map</string>
+    <string name="title_activity_near_by_places">Map</string>
+    <string name="schools">Schools</string>
+    <string name="schools_logo_thumble">schools_logo_thumble</string>
+    <string name="hsc_logo_thumble">hsc_logo_thumble</string>
+    <string name="honours_logo_thumble">honours_logo_thumble</string>
+    <string name="masters_logo_thumble">masters_logo_thumble</string>
+    <string name="here_i_am_using_ts_communication">Here I am using TS Communication</string>
+    <string name="gender">gender</string>
+    <string name="profession">Profession</string>
+    <string name="private_tutors">private tutors</string>
+    <string name="phone">Phone:</string>
+    <string name="email">email</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="your_status">your status</string>
+    <string name="user_name">user name</string>
+    <string name="proffession">Proffession</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="private_tutors_service">Private Tutors Service</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update">Update</string>
+    <string name="learning">Learning</string>
+    <string name="hsc">HSC</string>
+    <string name="honours">Honours</string>
+    <string name="masters">Masters</string>
+    <string name="address">address</string>
+    <string name="send_message">Send Message</string>
+    <string name="cancel_chat_request">Cancel Chat Request</string>
+    <string name="location">Location</string>
+    <string name="receiver_message_here">receiver message here</string>
+    <string name="sendmessagebuttonlogo">SendMessageButtonLogo</string>
+    <string name="write_your_message_here">Write your message here....</string>
+    <string name="display_user_name">Display User name</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="login_cover">login_cover</string>
+    <string name="password">password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="need_an_account">Need an Account?</string>
+    <string name="or_login_using">or Login using?</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="learning_sites">Learning sites</string>
+    <string name="video_tutorials">Video Tutorials</string>
+    <string name="learning_programming">Learning Programming</string>
+    <string name="learning_english">Learning English</string>
+    <string name="upload_your_book">Upload Your Book</string>
+    <string name="select_file">Select File</string>
+    <string name="upload">Upload</string>
+    <string name="book_list">Book List</string>
+    <string name="book_name">Type your Book Name</string>
 </resources>

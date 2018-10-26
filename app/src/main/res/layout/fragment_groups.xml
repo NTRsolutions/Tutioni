@@ -3,13 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.khokan.tutorisbdservice.GroupsFragment">
-
-    <ListView
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/list_of_groups"
-        >
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list_of_groups"
+                >
     </ListView>
-
+    </android.support.v7.widget.CardView>
 
 </RelativeLayout>

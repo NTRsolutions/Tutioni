@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Oct 14 12:04:26 BDT 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Android_Project\\GooglePlacesDetail\\GooglePlacesDetail\\TutorisBDService\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,4 +1,4 @@
-package com.example.khokan.tutorisbdservice.learnning;
+package com.example.khokan.tutorisbdservice.learning;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -36,11 +36,11 @@ public class LearningActivity extends AppCompatActivity {
         super.onOptionsItemSelected(item);
         if (item.getItemId() == R.id.video_tutorials)
         {
-            Toast.makeText(this, "Comming Soon.....", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Coming Soon.....", Toast.LENGTH_SHORT).show();
         }
         if (item.getItemId() == R.id.best_sites_for_learning)
         {
-            Toast.makeText(this, "Comming Soon.....", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Coming Soon.....", Toast.LENGTH_SHORT).show();
         }if (item.getItemId() == R.id.learning_programming)
         {
             sendToProgramming();
